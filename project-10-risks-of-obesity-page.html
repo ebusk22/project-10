@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <title>Risks of Obesity</title>
+   </head>
+   <body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+        <img src="https://unsplash.it/30/30" class="mr-2"><a class="navbar-brand" href="./index.html">Group-10</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body" aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbar-body">
+           <ul class="navbar-nav mr-auto"></ul>
+           <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="./group-10-obesity-rate.html">Obesity</a></li>
+              <li class="nav-item"><a class="nav-link" href="./project-10-heart-disease-mortality-page.html">Heart Disease Mortality</a></li>
+              <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                 <div class="dropdown-menu">
+                    <a class="dropdown-item" href="./project-10-risks-of-obesity-page.html">Risks of Obesity</a><a class="dropdown-item" href="./group-10-about-the-authors.html">About the Authors</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://www.youtube.com/watch?v=AhBJylmwa-w&t=15s">Wesbite Walkthrough</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <div class="container" id="bsr-wrapper">
+         <div class='my-5'></div>
+         <h1>Compare the Rates</h1>
+         <embed src="./interactive-bar-graph-viz-embed-div.html"
+        type="text/html" height="700" width="1000" />
+         <p>This bar graph is interactive, which allows people to see the different rates of obesity, heart disease mortality, and diabetes per state. All numbers have been adjusted so that they are more comparable. This shows that the rates of obesity, heart disease mortality, and diabetes are have no correlation. Obesity and heart disease mortality might be slightly positively correlated but they strength of that relationship is very weak.</p>
+      </div>
+      <embed src="./parallel-coordinates-viz-embed-div.html"
+        type="text/html" height="700" width="1000" />
+         <p>This visualization compares the population of each states the rates of obesity, heart disease mortality, and diabetes of each state. Each line represents all the data associated with one state. One takeaway is most states move similarly. Therer are very few states that are outliers. Most states are on the lower end for rates of diabetes and more in the middle for rates of heart disease mortality. This visualization also shows that each of the rates in each state is somewhat what positively correlated with their respective populations. While we cannot see what state is associated with each line, this still helps visualize how great of concern obesity, diabetes, and heart disease mortality are. </p>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script><script src="js/main.js"></script>
+   </body>
+</html>
